@@ -46,7 +46,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #668489;
+  background-color: #7fb3bf;
 }
 
 .product-1 {
@@ -56,7 +56,7 @@ header {
   justify-content: center;
   width: 100%;
   height: 600px;
-  background-color: aqua;
+  background-color: #668489;
 }
 .product-2 {
   position: relative;
@@ -65,7 +65,7 @@ header {
   justify-content: center;
   width: 100%;
   height: 600px;
-  background-color: red;
+  background-color: #7fb3bf;
 }
 
 .jordan1red {
@@ -93,7 +93,7 @@ header {
   padding: 0.3rem;
   border: none;
   font-size: 1.3rem;
-  background-color: #668489;
+  background-color: #7fb3bf;
   cursor: pointer;
 }
 
