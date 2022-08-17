@@ -56,10 +56,16 @@ header {
   justify-content: center;
   width: 100%;
   height: 600px;
+  background-color: aqua;
 }
-
-.shoe-div {
-  /* position: relative; */
+.product-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  background-color: red;
 }
 
 .jordan1red {
@@ -91,19 +97,9 @@ header {
   cursor: pointer;
 }
 
-.product-2 {
-  height: 600px;
-  width: 100%;
-}
-
-.af-div {
-  display: flex;
-  justify-content: center;
-}
-
 .buy-btn-af {
+  width: 88%;
   margin-top: 2rem;
-  width: 20%;
   padding: 0.3rem;
   border: none;
   font-size: 1.3rem;
