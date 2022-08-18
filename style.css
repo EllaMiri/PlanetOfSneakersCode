@@ -122,7 +122,6 @@ header {
 }
 
 input[type="text"],
-select,
 textarea {
   width: 700px;
   padding: 12px;
