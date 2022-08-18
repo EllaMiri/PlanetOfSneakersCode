@@ -31,12 +31,14 @@ header {
   list-style-type: none;
   padding-left: 1rem;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .logo {
   height: 120px;
   width: auto;
   padding-left: 2rem;
+  cursor: pointer;
 }
 
 .info-text {
@@ -110,4 +112,71 @@ header {
 .airforce {
   height: 200px;
   width: auto;
+}
+
+.text {
+  text-align: center;
+}
+
+.contact {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  background-color: #668489;
+}
+
+.contact-txt {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.name-txt {
+  font-size: 1.2rem;
+}
+
+/* .name-input {
+  width: 50%;
+  height: auto;
+} */
+
+input[type="text"],
+select,
+textarea {
+  width: 700px;
+  padding: 12px;
+  border: 1px solid #7addf4;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.submit {
+  width: 7rem;
+  height: 1.5rem;
+  cursor: pointer;
+  background-color: #7addf4;
+  border: none;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 10rem;
+  height: auto;
+}
+
+.copyright {
+  margin-top: 1rem;
 }
